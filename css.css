@@ -1,0 +1,162 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.https {
+    background-color: rgb(9, 219, 100);
+    width: 250px;
+    height: 100px;
+    color: white;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    font-size: 20px;
+}
+
+.htt {
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px black solid;
+    font-size: 30px;
+}
+
+.rlo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(240, 238, 238);
+    left: 80%;
+    top: 10%;
+}
+
+.rl {
+    background-image: url(https://brotandoconsciencia.com.br/wp-content/uploads/2023/07/Celulares-curiosidades.jpg);
+    background-color: white;
+    border: 2px black solid;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: absolute;
+    left: -140px;
+}
+
+.area-carrinho {
+    position: absolute;
+    left: 365px;
+    top: 130px;
+    width: 500px;
+}
+
+.area-carrinho h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.carrinho-vazio {
+    width: 260px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.carrinho-vazio p {
+    font-size: 17px;
+}
+
+.carinha {
+    width: 80px;
+    height: 80px;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    line-height: 1;
+    transform: rotate(0deg);
+}
+
+.acrescimo {
+    color: rgb(200, 40, 40);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.rodape {
+    position: absolute;
+    top: 700px;
+    left: 0;
+    width: 100%;
+    min-height: 180px;
+    border-top: 2px solid black;
+    background-color: white;
+}
+
+.informacoes {
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+
+.informacoes h4 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.sobre {
+    position: absolute;
+    left: 45%;
+    top: 40px;
+}
+
+.sobre h4 {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.atendimento {
+    position: absolute;
+    right: 70px;
+    top: 10px;
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.atendimento h3 {
+    margin-top: 0;
+    font-size: 17px;
+}
+
+.atendimento p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.cor2 {
+    color: white
+}
