@@ -1,7 +1,6 @@
 body {
     background-color: white;
     margin: 0;                           /* tira a margem padrão do navegador */
-    font-family: Arial, sans-serif;      /* fonte do site (sans-serif é a reserva se Arial faltar) */
     font-size: 16px;                     /* tamanho padrão da letra */
     padding: 0px;
 }
